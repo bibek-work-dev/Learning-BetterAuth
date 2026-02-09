@@ -1,11 +1,10 @@
-"use client"
+"use client";
 
-import React from 'react'
+import ForgotPasswordForm from "@/components/ForgotPasswordForm";
+import React from "react";
 
 const page = () => {
-    return (
-        <div>page</div>
-    )
-}
+  return <ForgotPasswordForm />;
+};
 
-export default page
+export default page;
